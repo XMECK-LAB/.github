@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="230" viewBox="0 0 1200 230" role="img" aria-label="Research to working software">
+  <defs>
+    <linearGradient id="flow" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#60a5fa"/>
+      <stop offset="50%" stop-color="#e2e8f0"/>
+      <stop offset="100%" stop-color="#fb923c"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="230" rx="26" fill="#08111f"/>
+  <path d="M110 115 H1090" stroke="#24324a" stroke-width="7" stroke-linecap="round"/>
+  <path d="M110 115 H1090" stroke="url(#flow)" stroke-width="2" stroke-linecap="round" stroke-dasharray="28 24">
+    <animate attributeName="stroke-dashoffset" values="0;-104" dur="4s" repeatCount="indefinite"/>
+  </path>
+
+  <g font-family="Inter,Segoe UI,Arial,sans-serif" text-anchor="middle">
+    <g transform="translate(150 115)">
+      <circle r="40" fill="#10213b" stroke="#60a5fa"/>
+      <text y="-4" font-size="14" font-weight="800" fill="#f8fafc">RESEARCH</text>
+      <text y="15" font-size="10" fill="#93c5fd">direction</text>
+    </g>
+    <g transform="translate(375 115)">
+      <circle r="40" fill="#10213b" stroke="#38bdf8"/>
+      <text y="-4" font-size="14" font-weight="800" fill="#f8fafc">ENGINEER</text>
+      <text y="15" font-size="10" fill="#bae6fd">implement</text>
+    </g>
+    <g transform="translate(600 115)">
+      <circle r="40" fill="#141d2d" stroke="#cbd5e1"/>
+      <text y="-4" font-size="14" font-weight="800" fill="#f8fafc">EVIDENCE</text>
+      <text y="15" font-size="10" fill="#cbd5e1">observe</text>
+    </g>
+    <g transform="translate(825 115)">
+      <circle r="40" fill="#211827" stroke="#f59e0b"/>
+      <text y="-4" font-size="14" font-weight="800" fill="#f8fafc">QUALIFY</text>
+      <text y="15" font-size="10" fill="#fde68a">admit</text>
+    </g>
+    <g transform="translate(1050 115)">
+      <circle r="40" fill="#2a1720" stroke="#fb923c"/>
+      <text y="-4" font-size="14" font-weight="800" fill="#f8fafc">PRODUCT</text>
+      <text y="15" font-size="10" fill="#fed7aa">publish</text>
+    </g>
+  </g>
+
+  <circle r="6" fill="#fff">
+    <animateMotion path="M110 115 H1090" dur="4s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;1;1;0" dur="4s" repeatCount="indefinite"/>
+  </circle>
+</svg>
